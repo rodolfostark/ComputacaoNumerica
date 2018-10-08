@@ -1,7 +1,7 @@
 function y = f(x)
     y = x*x;
 endfunction
-function [x, num_it] = secante(x0, x1, e, num_it_max)
+function [rn, num_it] = secante(x0, x1, e, num_it_max)
     num_it = 0;
     erro = 1;
     ra1 = x0;
